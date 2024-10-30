@@ -8,18 +8,25 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    
-    <ul>
-      <li>Home</li>
-      <li>Gallery</li>
-      <li>Contact</li>
-    </ul>
+   <nav class="navbar">
+    <a href="index.html" class="navbarjudul">the Sawah</a>
+    <div class="navbarmenu">
+      <ul class="navbarmenulist">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
 
   </nav>
 
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <h1 id="txhello">Hello, world!</h1>
+  <button onclick="kelik()" id="btn1">Press me</button>
+
+  <script>
+    function kelik(){
+      alert("Contoh Script bahasa javaScript")
+    }
+  </script>
 </body>
 </html>
